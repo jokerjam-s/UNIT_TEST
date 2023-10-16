@@ -46,11 +46,11 @@ public class Calculator {
         // purchaseAmount - сумма покупки
         // discountAmount - размер скидки
         if (purchaseAmount < 0)
-            throw new IllegalArgumentException("Illegal purchase amount. Must be >= 0.");
+            throw new ArithmeticException("Illegal purchase amount. Must be >= 0.");
 
         if (discountAmount < 0 || discountAmount > 100)
-            throw new IllegalArgumentException("Illegal discount amount. Must be in [0 .. 100].");
+            throw new ArithmeticException("Illegal discount amount. Must be in [0 .. 100].");
 
-        return purchaseAmount -= discountAmount / 100; // Метод должен возвращать сумму покупки со скидкой
+        return purchaseAmount - purchaseAmount * discountAmount / 100; // Метод должен возвращать сумму покупки со скидкой
     }
 }

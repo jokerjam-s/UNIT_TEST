@@ -52,11 +52,20 @@ public class CalculatorTest {
 
         System.out.println(Calculator.calculation(2_147_483_647, 1, '+')); // integer overflow
         System.out.println(Calculator.squareRootExtraction(169));
+        System.out.println(Calculator.calculatingDiscount(100, 25));
 
 
-        System.out.println();
-        System.out.println("");
-        System.out.println("");
+        // Тестирование
+        assertThat(Calculator.calculatingDiscount(100, 25)).isEqualTo(75);
+        assertThat(Calculator.calculatingDiscount(100, 50)).isEqualTo(50);
+        assertThat(Calculator.calculatingDiscount(100, 0)).isEqualTo(100);
+        assertThat(Calculator.calculatingDiscount(0, 10)).isEqualTo(0);
+        assertThatThrownBy(() -> Calculator.calculatingDiscount(-100, 10))
+                .isInstanceOf(ArithmeticException.class);
+        assertThatThrownBy(() -> Calculator.calculatingDiscount(-100, -10))
+                .isInstanceOf(ArithmeticException.class);
+        assertThatThrownBy(() -> Calculator.calculatingDiscount(100, -10))
+                .isInstanceOf(ArithmeticException.class);
 
 
         // Примерные решения домашних заданий из 1 лекции:
