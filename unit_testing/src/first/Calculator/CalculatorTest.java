@@ -59,6 +59,7 @@ public class CalculatorTest {
         assertThat(Calculator.calculatingDiscount(100, 25)).isEqualTo(75);
         assertThat(Calculator.calculatingDiscount(100, 50)).isEqualTo(50);
         assertThat(Calculator.calculatingDiscount(100, 0)).isEqualTo(100);
+        assertThat(Calculator.calculatingDiscount(100, 100)).isEqualTo(0);
         assertThat(Calculator.calculatingDiscount(0, 10)).isEqualTo(0);
         assertThatThrownBy(() -> Calculator.calculatingDiscount(-100, 10))
                 .isInstanceOf(ArithmeticException.class);
