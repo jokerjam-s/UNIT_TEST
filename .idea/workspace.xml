@@ -4,363 +4,163 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a310ca16-0c22-4e45-a956-30d6220a85f1" name="Changes" comment="Рефакторинг студентам">
-      <change afterPath="$PROJECT_DIR$/Test/seminars/fourth/book/BookServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="c349dfca-a0a9-4227-abc6-d65079fad5aa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/libs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UNIT_TEST.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/assertj_core_3_23_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/assertj_core_3_23_1__2_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_jupiter_api_5_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_jupiter_params_5_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_platform_commons_1_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/unit-tests.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/seminars/fourth/book/BookServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/seminars/fourth/book/BookServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminars/fourth/book/InMemoryBookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminars/fourth/book/InMemoryBookRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="JUnit5 Test Class" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="lesson4_1" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2T7Pk5wKAhD35omIvHVBrS6LV3Y" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2XBCw3E15My7J9SnGx4HNHeFlE8" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Git.Branch.Popup.ShowAllRemotes": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "full.screen.before.presentation.mode": "false",
     "git-widget-placeholder": "work__04",
-    "last_opened_file_path": "C:/Users/Vych/Desktop/unit-tests-4",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="seminars.sixth" />
-      <recent name="seminars.five.app" />
-      <recent name="seminars.five" />
-      <recent name="seminars.fourth.weather" />
-      <recent name="seminars.fourth.book" />
-    </key>
-  </component>
-  <component name="RunManager" selected="JUnit.UserTest.logoutAllExceptAdmins">
-    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="seminars.first.Main" />
-      <module name="unit-tests" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SomeServiceTest.evenOddNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests" />
+  <component name="RunManager" selected="JUnit.BookServiceTest">
+    <configuration name="BookServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UNIT_TEST" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminars.third.coverage.*" />
+          <option name="PATTERN" value="seminars.fourth.book.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seminars.third.coverage" />
-      <option name="MAIN_CLASS_NAME" value="seminars.third.coverage.SomeServiceTest" />
-      <option name="METHOD_NAME" value="evenOddNumber" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SomeServiceTest.numberInInterval" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seminars.third.coverage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="seminars.third.coverage" />
-      <option name="MAIN_CLASS_NAME" value="seminars.third.coverage.SomeServiceTest" />
-      <option name="METHOD_NAME" value="numberInInterval" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDrivenDevelopment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seminars.third.tdd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="seminars.third.tdd" />
-      <option name="MAIN_CLASS_NAME" value="seminars.third.tdd.TestDrivenDevelopment" />
+      <option name="PACKAGE_NAME" value="seminars.fourth.book" />
+      <option name="MAIN_CLASS_NAME" value="seminars.fourth.book.BookServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests" />
+    <configuration name="BookServiceTest.testBookServiceBook2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UNIT_TEST" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminars.third.tdd.*" />
+          <option name="PATTERN" value="seminars.fourth.book.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seminars.third.tdd" />
-      <option name="MAIN_CLASS_NAME" value="seminars.third.tdd.UserTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserTest.logoutAllExceptAdmins" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seminars.third.tdd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="seminars.third.tdd" />
-      <option name="MAIN_CLASS_NAME" value="seminars.third.tdd.UserTest" />
-      <option name="METHOD_NAME" value="logoutAllExceptAdmins" />
+      <option name="PACKAGE_NAME" value="seminars.fourth.book" />
+      <option name="MAIN_CLASS_NAME" value="seminars.fourth.book.BookServiceTest" />
+      <option name="METHOD_NAME" value="testBookServiceBook2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.Unnamed" />
-      <item itemvalue="JUnit.SomeServiceTest.evenOddNumber" />
-      <item itemvalue="JUnit.SomeServiceTest.numberInInterval" />
-      <item itemvalue="JUnit.TestDrivenDevelopment" />
-      <item itemvalue="JUnit.UserTest" />
-      <item itemvalue="JUnit.UserTest.logoutAllExceptAdmins" />
-    </list>
+    <configuration name="BookServiceTest.testBookServiceList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UNIT_TEST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminars.fourth.book.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seminars.fourth.book" />
+      <option name="MAIN_CLASS_NAME" value="seminars.fourth.book.BookServiceTest" />
+      <option name="METHOD_NAME" value="testBookServiceList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookServiceTest.testBookServiceNotBook1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UNIT_TEST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminars.fourth.book.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seminars.fourth.book" />
+      <option name="MAIN_CLASS_NAME" value="seminars.fourth.book.BookServiceTest" />
+      <option name="METHOD_NAME" value="testBookServiceNotBook1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookServiceTest.testBookServiceNotBook2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UNIT_TEST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminars.fourth.book.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seminars.fourth.book" />
+      <option name="MAIN_CLASS_NAME" value="seminars.fourth.book.BookServiceTest" />
+      <option name="METHOD_NAME" value="testBookServiceNotBook2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserTest.logoutAllExceptAdmins" />
-        <item itemvalue="JUnit.UserTest" />
-        <item itemvalue="JUnit.TestDrivenDevelopment" />
-        <item itemvalue="JUnit.SomeServiceTest.numberInInterval" />
-        <item itemvalue="JUnit.SomeServiceTest.evenOddNumber" />
+        <item itemvalue="JUnit.BookServiceTest" />
+        <item itemvalue="JUnit.BookServiceTest.testBookServiceBook2" />
+        <item itemvalue="JUnit.BookServiceTest.testBookServiceNotBook2" />
+        <item itemvalue="JUnit.BookServiceTest.testBookServiceNotBook1" />
+        <item itemvalue="JUnit.BookServiceTest.testBookServiceList" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a310ca16-0c22-4e45-a956-30d6220a85f1" name="Changes" comment="" />
-      <created>1690391286875</created>
+      <changelist id="c349dfca-a0a9-4227-abc6-d65079fad5aa" name="Changes" comment="" />
+      <created>1698093322955</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1690391286875</updated>
-      <workItem from="1698044103529" duration="265000" />
-      <workItem from="1698045392328" duration="4896000" />
+      <updated>1698093322955</updated>
+      <workItem from="1698093325480" duration="5695000" />
     </task>
-    <task id="LOCAL-00001" summary="Обновление версии ассретж">
-      <created>1690452854387</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1690452854387</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Обновлен материал для проведения асинхронного семинара">
-      <created>1690463243991</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1690463243991</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Обновлено для демонстрации решения дз первого семинара">
-      <created>1690466016932</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1690466016932</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Обновлено для демонстрации">
-      <created>1690466209198</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1690466209198</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Обновлено для демонстрации">
-      <created>1690578381013</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1690578381013</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Обновлено для демонстрации второго семинара">
-      <created>1690586978825</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1690586978825</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Обновлено для демонстрации четвертого семинара">
-      <created>1690995391034</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1690995391035</updated>
-    </task>
-    <task id="LOCAL-00008" summary="5.1">
-      <created>1691162136128</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1691162136128</updated>
-    </task>
-    <task id="LOCAL-00009" summary="готово к 5 семинару">
-      <created>1691168587117</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1691168587117</updated>
-    </task>
-    <task id="LOCAL-00010" summary="готово к 6 семинару">
-      <created>1691335614517</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1691335614517</updated>
-    </task>
-    <task id="LOCAL-00011" summary="добавлен интеграционный тест">
-      <created>1691399303543</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1691399303543</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Рефакторинг решение">
-      <created>1691411333715</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1691411333715</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Рефакторинг для студентов">
-      <created>1691411673833</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1691411673833</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Рефакторинг решение">
-      <created>1691412309454</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1691412309454</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Рефакторинг студентам">
-      <created>1691412622223</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1691412622223</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Рефакторинг студентам">
-      <created>1691413501243</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1691413501243</updated>
-    </task>
-    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Обновление версии ассретж" />
-    <MESSAGE value="Обновлен материал для проведения асинхронного семинара" />
-    <MESSAGE value="Обновлено для демонстрации решения дз первого семинара" />
-    <MESSAGE value="Обновлено для демонстрации" />
-    <MESSAGE value="Обновлено для демонстрации второго семинара" />
-    <MESSAGE value="Обновлено для демонстрации четвертого семинара" />
-    <MESSAGE value="5.1" />
-    <MESSAGE value="готово к 5 семинару" />
-    <MESSAGE value="готово к 6 семинару" />
-    <MESSAGE value="добавлен интеграционный тест" />
-    <MESSAGE value="Рефакторинг для студентов" />
-    <MESSAGE value="Рефакторинг решение" />
-    <MESSAGE value="Рефакторинг студентам" />
-    <option name="LAST_COMMIT_MESSAGE" value="Рефакторинг студентам" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/unit_tests$SomeServiceTest_discountMore100ReturnException.ic" NAME="SomeServiceTest.discountMore100ReturnException Coverage Results" MODIFIED="1690820266246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>seminars.third.coverage.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/unit_tests$SomeServiceTest.ic" NAME="SomeServiceTest Coverage Results" MODIFIED="1690820882781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>seminars.third.coverage.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/unit_tests$ListComparatorTest.ic" NAME="ListComparatorTest Coverage Results" MODIFIED="1691404894563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>seminars.sixth.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/unit_tests$SomeServiceTest_insufficientCoverageTest.ic" NAME="SomeServiceTest.insufficientCoverageTest Coverage Results" MODIFIED="1690820179288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>seminars.third.coverage.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/unit_tests$UserTest.ic" NAME="UserTest Coverage Results" MODIFIED="1690824507018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>seminars.third.tdd.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/unit_tests$SomeServiceTest_negativePurchaseAmountReturnException.ic" NAME="SomeServiceTest.negativePurchaseAmountReturnException Coverage Results" MODIFIED="1690820428170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>seminars.third.coverage.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/unit_tests$TestDrivenDevelopment.ic" NAME="TestDrivenDevelopment Coverage Results" MODIFIED="1690822960430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>seminars.third.tdd.*</FILTER>
-    </SUITE>
   </component>
 </project>
