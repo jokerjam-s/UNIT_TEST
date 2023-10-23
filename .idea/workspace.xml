@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a310ca16-0c22-4e45-a956-30d6220a85f1" name="Changes" comment="Рефакторинг студентам">
+      <change afterPath="$PROJECT_DIR$/Test/seminars/fourth/book/BookServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CoverageOptionsProvider">
-    <option name="myAddOrReplace" value="1" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -27,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson3_1" />
+        <entry key="$PROJECT_DIR$" value="lesson4_1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,9 +35,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
-}</component>
   <component name="ProjectId" id="2T7Pk5wKAhD35omIvHVBrS6LV3Y" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -57,25 +54,22 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "full.screen.before.presentation.mode": "false",
     "git-widget-placeholder": "work__04",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/GB_Projects/UNIT_TEST",
+    "last_opened_file_path": "C:/Users/Vych/Desktop/unit-tests-4",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Problems",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="seminars.third.hw" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="seminars.sixth" />
@@ -85,7 +79,7 @@
       <recent name="seminars.fourth.book" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserTest.checkLogoutSimpleUsers">
+  <component name="RunManager" selected="JUnit.UserTest.logoutAllExceptAdmins">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="seminars.first.Main" />
       <module name="unit-tests" />
@@ -94,17 +88,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainHWTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+    <configuration name="SomeServiceTest.evenOddNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminars.third.hw.*" />
+          <option name="PATTERN" value="seminars.third.coverage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seminars.third.hw" />
-      <option name="MAIN_CLASS_NAME" value="seminars.third.hw.MainHWTest" />
-      <option name="METHOD_NAME" value="" />
+      <option name="PACKAGE_NAME" value="seminars.third.coverage" />
+      <option name="MAIN_CLASS_NAME" value="seminars.third.coverage.SomeServiceTest" />
+      <option name="METHOD_NAME" value="evenOddNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SomeServiceTest.numberInInterval" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminars.third.coverage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seminars.third.coverage" />
+      <option name="MAIN_CLASS_NAME" value="seminars.third.coverage.SomeServiceTest" />
+      <option name="METHOD_NAME" value="numberInInterval" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDrivenDevelopment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminars.third.tdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seminars.third.tdd" />
+      <option name="MAIN_CLASS_NAME" value="seminars.third.tdd.TestDrivenDevelopment" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,23 +150,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest.checkAuthenticateUserNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seminars.third.hw.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="seminars.third.tdd" />
-      <option name="MAIN_CLASS_NAME" value="seminars.third.tdd.UserTest" />
-      <option name="METHOD_NAME" value="checkAuthenticateUserNegative" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserTest.checkLogoutSimpleUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserTest.logoutAllExceptAdmins" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests" />
       <extension name="coverage">
         <pattern>
@@ -151,39 +160,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="seminars.third.tdd" />
       <option name="MAIN_CLASS_NAME" value="seminars.third.tdd.UserTest" />
-      <option name="METHOD_NAME" value="checkLogoutSimpleUsers" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserTest.checkRepositoryAddAuthenticatedUserPositive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seminars.third.hw.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="seminars.third.tdd" />
-      <option name="MAIN_CLASS_NAME" value="seminars.third.tdd.UserTest" />
-      <option name="METHOD_NAME" value="checkRepositoryAddAuthenticatedUserPositive" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserTest.checkRepositoryAddNotAuthenticatedUserNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seminars.third.hw.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="seminars.third.tdd" />
-      <option name="MAIN_CLASS_NAME" value="seminars.third.tdd.UserTest" />
-      <option name="METHOD_NAME" value="checkRepositoryAddNotAuthenticatedUserNegative" />
+      <option name="METHOD_NAME" value="logoutAllExceptAdmins" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -191,20 +168,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Unnamed" />
-      <item itemvalue="JUnit.MainHWTest" />
+      <item itemvalue="JUnit.SomeServiceTest.evenOddNumber" />
+      <item itemvalue="JUnit.SomeServiceTest.numberInInterval" />
+      <item itemvalue="JUnit.TestDrivenDevelopment" />
       <item itemvalue="JUnit.UserTest" />
-      <item itemvalue="JUnit.UserTest.checkLogoutSimpleUsers" />
-      <item itemvalue="JUnit.UserTest.checkAuthenticateUserNegative" />
-      <item itemvalue="JUnit.UserTest.checkRepositoryAddAuthenticatedUserPositive" />
-      <item itemvalue="JUnit.UserTest.checkRepositoryAddNotAuthenticatedUserNegative" />
+      <item itemvalue="JUnit.UserTest.logoutAllExceptAdmins" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserTest.checkLogoutSimpleUsers" />
+        <item itemvalue="JUnit.UserTest.logoutAllExceptAdmins" />
         <item itemvalue="JUnit.UserTest" />
-        <item itemvalue="JUnit.UserTest.checkRepositoryAddNotAuthenticatedUserNegative" />
-        <item itemvalue="JUnit.UserTest.checkRepositoryAddAuthenticatedUserPositive" />
-        <item itemvalue="JUnit.UserTest.checkAuthenticateUserNegative" />
+        <item itemvalue="JUnit.TestDrivenDevelopment" />
+        <item itemvalue="JUnit.SomeServiceTest.numberInInterval" />
+        <item itemvalue="JUnit.SomeServiceTest.evenOddNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -216,8 +192,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1690391286875</updated>
-      <workItem from="1697745757430" duration="7617000" />
-      <workItem from="1697831502749" duration="5040000" />
+      <workItem from="1698044103529" duration="265000" />
+      <workItem from="1698045392328" duration="4896000" />
     </task>
     <task id="LOCAL-00001" summary="Обновление версии ассретж">
       <created>1690452854387</created>
@@ -324,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691412622223</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Рефакторинг студентам">
+      <created>1691413501243</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1691413501243</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,45 +341,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="Рефакторинг студентам" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/unit_tests$ListComparatorTest.ic" NAME="ListComparatorTest Coverage Results" MODIFIED="1691404894563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>seminars.sixth.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/unit_tests_3$SomeServiceTest_multipleThreeNotFiveReturnsFizz.ic" NAME="SomeServiceTest.multipleThreeNotFiveReturnsFizz Coverage Results" MODIFIED="1697478678826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>seminars.third.coverage.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/unit_tests$SomeServiceTest_negativePurchaseAmountReturnException.ic" NAME="SomeServiceTest.negativePurchaseAmountReturnException Coverage Results" MODIFIED="1690820428170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>seminars.third.coverage.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/unit_tests$SomeServiceTest_discountMore100ReturnException.ic" NAME="SomeServiceTest.discountMore100ReturnException Coverage Results" MODIFIED="1690820266246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>seminars.third.coverage.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/unit_tests_3$SomeServiceTest.ic" NAME="SomeServiceTest Coverage Results" MODIFIED="1697480739145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/unit_tests$SomeServiceTest.ic" NAME="SomeServiceTest Coverage Results" MODIFIED="1690820882781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>seminars.third.coverage.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/UNIT_TEST$MainHWTest.ic" NAME="MainHWTest Coverage Results" MODIFIED="1697753251324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>seminars.third.hw.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/unit_tests_3$CalculatorTest.ic" NAME="CalculatorTest Coverage Results" MODIFIED="1697476262018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/unit_tests_3$SomeServiceTest_checkSumThreeNumbersNegativeResult.ic" NAME="SomeServiceTest.checkSumThreeNumbersNegativeResult Coverage Results" MODIFIED="1697481307773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>seminars.third.coverage.*</FILTER>
+    <SUITE FILE_PATH="coverage/unit_tests$ListComparatorTest.ic" NAME="ListComparatorTest Coverage Results" MODIFIED="1691404894563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>seminars.sixth.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/unit_tests$SomeServiceTest_insufficientCoverageTest.ic" NAME="SomeServiceTest.insufficientCoverageTest Coverage Results" MODIFIED="1690820179288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>seminars.third.coverage.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/unit_tests_3$TestDrivenDevelopment_checkUnknownMood.ic" NAME="TestDrivenDevelopment.checkUnknownMood Coverage Results" MODIFIED="1697481917978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>seminars.third.tdd.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/unit_tests$TestDrivenDevelopment.ic" NAME="TestDrivenDevelopment Coverage Results" MODIFIED="1690822960430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>seminars.third.tdd.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/UNIT_TEST$UserTest_checkLogoutSimpleUsers.ic" NAME="UserTest.checkLogoutSimpleUsers Coverage Results" MODIFIED="1697753482388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>seminars.third.tdd.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/unit_tests$UserTest.ic" NAME="UserTest Coverage Results" MODIFIED="1690824507018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>seminars.third.tdd.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/unit_tests$SomeServiceTest.ic" NAME="SomeServiceTest Coverage Results" MODIFIED="1690820882781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/unit_tests$SomeServiceTest_negativePurchaseAmountReturnException.ic" NAME="SomeServiceTest.negativePurchaseAmountReturnException Coverage Results" MODIFIED="1690820428170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>seminars.third.coverage.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/unit_tests$TestDrivenDevelopment.ic" NAME="TestDrivenDevelopment Coverage Results" MODIFIED="1690822960430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>seminars.third.tdd.*</FILTER>
     </SUITE>
   </component>
 </project>
