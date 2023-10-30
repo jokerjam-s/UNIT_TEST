@@ -17,10 +17,10 @@ def test_add_first_list():
 def test_add_second_list():
     avg_list = AvgList()
 
-    avg_list.add_first([7, 2, -2, 4])
-    avg_list.add_first([8, 3])
+    avg_list.add_second([7, 2, -2, 4])
+    avg_list.add_second([8, 3])
 
-    assert avg_list.get_first() == "[7, 2, -2, 4, 8, 3]"
+    assert avg_list.get_second() == "[7, 2, -2, 4, 8, 3]"
 
 
 def test_calc_first_avg_right_data():
